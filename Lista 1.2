@@ -1,0 +1,17 @@
+#Ler vários valores para uma lista. Ao ler um número já existente dentro da lista, este deve ser rejeitado. Fazer isto até o usuário desejar. No final, exibir a lista lida em ordem crescente.
+
+numeros = list()
+
+while True:
+    n = int(input("Digite um valor: "))
+    print ('O valor foi adicionado!')
+    
+    else:
+        print ('Valor duplicado! Não será adicionado...')
+    r = str(input("Quer continuar? [S/N]"))
+    if r in 'Nn':
+        break
+
+print ('-' * 30)
+numeros.sort
+print (f'Você digitou os valores: {numeros}')
