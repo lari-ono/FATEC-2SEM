@@ -1,0 +1,26 @@
+#Ler vários números em uma lista até que o usuário deseje. Exibir no final: a quantidade de números digitados, a lista em ordem decrescente e a quantidade de pares e ímpares.
+from collections import Counter
+
+numeros = [[], []]
+n = 0
+qtd = valores.count(n)
+
+n = int(input("Digite um valor: "))
+print ('O valor foi adicionado!')
+if n % 2 == 0:
+    numeros[0].append(n)
+else:
+    numeros[1].append(n)
+    
+r = str(input('Você quer continuar: (S/N)?'))
+if r in 'Nn':
+   break
+   
+c = Counter(n)
+print (f'Total dos números digitados: {c}')
+for n in range:
+numeros.sort (reverse = True)        
+print (f'Lista em ordem decrescente : {numeros})
+print (f'Os valores pares foram: {numeros[0]}')
+print (f'Os valores ímpares foram: {numeros[1]}')
+print ('Fim!')
