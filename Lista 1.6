@@ -1,0 +1,20 @@
+#falar se ela é válida ou inválida.
+      #Ex: expressão lida:  ((a + b) * c ) : expressão válida
+           #expressão lida:      (a + b) * c ) : expressão inválida
+
+exp = str(input('Digite sua expressão: '))
+pilha = []
+for sb in exp:
+    if sb == '(':
+        pilha.append('(')
+        elif sb ==')':
+            if len(pilha)>0:
+                pilha.pop
+                else:
+                    pilha.append(')')
+                    break
+
+if  len(pilha) == 0:
+    print (f'Sua expressão está válida!')
+else:
+    print (f'Sua expressão está inválida!')
