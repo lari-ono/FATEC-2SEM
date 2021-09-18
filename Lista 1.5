@@ -1,0 +1,21 @@
+#Ler vários números para uma lista até que o usuário deseje. Depois criar mais duas listas: uma somente com os números pares e outra, somente com os números ímpares. Mostrar as 3 listas no final. 
+
+numeros = [[], []]
+n = 0
+
+
+n = int(input("Digite um valor: "))
+print ('O valor foi adicionado!')
+if n % 2 == 0:
+    numeros[0].append(n)
+else:
+    numeros[1].append(n)
+    
+r = str(input('Você quer continuar: (S/N)?'))
+if r in 'Nn':
+    break
+   
+print (f'Todos os números: {numeros}')
+print (f'Os valores pares foram: {numeros[0]}')
+print (f'Os valores ímpares foram: {numeros[1]}')
+print ('Fim!')
