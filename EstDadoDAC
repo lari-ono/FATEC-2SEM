@@ -1,0 +1,11 @@
+lista1 = [0, 0, 5, 7, 1, 2, 3, 4, 5, 1, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+lista2 = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+
+auxílio
+
+for x in:
+    prod = lista1[x] * lista2[x]
+    if (prod>10):
+    prod = ...
+    
+    listaRes[x] = prod
