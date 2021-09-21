@@ -1,0 +1,37 @@
+#Reproduza os cálculos do DAC utilizando uma lista com os valores do Exemplo 1
+SC = [0, 0, 5, 7, 1, 2, 3, 4, 5, 1, 1, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+ultimo = 2
+soma = 0
+#criar uma lista que o último elemento será 2 e a partir disso, acompanhado do número 1. vai se repetindo até dar o mesmo n° de elementos da sequência.
+def mod10:
+    mod10[0] * len(SC)
+#start,stop, step   
+  for i in range(len(SC) - 1, -1, -1):
+    mod10[i] = ultimo
+    if (ultimo == 2):
+      ultimo = 1
+    else:
+      ultimo = 2
+  
+  return mod10
+
+def calculoDac (somaT:list):
+    for x in:
+    prod = SC[x] * mod10[x]
+    if listaRes = (prod > 10):
+        print listaRes.split
+        soma1 = listaRes[0] + listaRes[1]
+        soma1.append(somaT)
+    else:
+        listaRes = (prod < 10):
+        print prod
+        prod.append(somaT)
+
+#somar tudo:
+sum.(somaT)
+    return calculoDac    
+            
+#para saber o resto da divisão: %
+dac = 10 - (somaT % 10)
+
+print (f'A sequência de código é: {SC} \n O módulo 10 é: {mod10} \n O DAC descoberto é: {dac}.)
