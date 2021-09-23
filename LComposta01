@@ -1,0 +1,22 @@
+#Faça um script que leia 10 números inteiros para uma lista composta (por 3 listas internas) que mantenha separados os números positivos, negativos e os números neutros. No final mostre todas as sub-listas em ordem crescente.
+
+num = [ [], [], []]
+
+for n in range (0,10):
+    num = int(input("Digite um número: "))
+    print ('O valor foi adicionado!')
+    if num % 2 == 0:
+        num.append[0]
+    elif num == 0:
+        num.append[1]
+    else:
+        num.append[2]
+        
+
+num.sort
+
+print (f'Lista em ordem decrescente : {numeros})
+print (f'Os valores pares foram: {numeros[0]}')
+print (f'Os valores neutros foram: {numeros[1]}')
+print (f'Os valores negativos foram: {numeros[2]}')
+print ('Fim!')       
