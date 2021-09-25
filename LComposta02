@@ -1,0 +1,24 @@
+ficha = list()
+maiores = []
+menores = []
+
+while True:
+    nome = str(input('Nome: '))
+    idade = int(input('Idade: '))
+    pessoa.append([nome],[idade])
+    resp = str(input('Quer continuar (S/N)?'))
+    if resp in 'Nn':
+        break
+print ('+-'*30)
+print (f'{'No':<4}{'NOME':<10}{'IDADE':<8}')
+print ('-'*30)
+for i, a in enumerate(pessoa):
+    print (f'{i:<4}{a[0]:<10}{a[2]:<8.1f}')
+
+for i in range(len(pessoa)):
+    if (idade >= 18):
+      maiores.append[maiores]
+    else:
+      menores.append[menores]
+
+print ('Os maiores de idades são: {maiores} e os menores de idades são: {menores}')
