@@ -1,0 +1,33 @@
+#soma todos os numeros, soma dos valores da segunda coluna e o maior número da primeira linha.
+matriz = [[0,0], [0,0]]
+maiorl = soma = somac = somal = 0
+
+for l in range (0,2):
+    for c in range (0,2):
+        matriz[l][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
+
+print ('+' * 30)
+
+for l in range (0,2):
+    for c in range (0,2):
+        print (f'[{matriz[l][c]: ^5}]', end=' ') #5 espaços centralizados
+    print ()    #quebrar linha
+print ('+' * 30)
+
+for l in range (0,2):
+    for c in range(0,2):
+        soma += matriz [l][c]
+print (f'A soma de todos os números são {soma}')
+        
+for l in range(len(matriz[0])):
+  if (matriz[0][c] > maiorl):
+    maiorl = matriz[0][c]
+print (f'O maior número da primeira linha é: {maiorl}')     
+  
+for l in range (0,2):
+    somac += matriz [l][1]
+print (f'O total da soma dos valores da segunda coluna é {somac}')    
+
+for c in range (0,2):
+    somal += matriz [1][c]
+print (f'O total da soma dos valores da segunda linha é {somal}') 
